@@ -49,8 +49,19 @@ namespace EsercitazioneLib
             return Divisione;
         }
 
-        public static double Potenza(double n)
+        //public static double Potenza(double n, int a)
+        //{
+        //    double risultato = 0;
+        //    for(int i = 0; i < a; i++)
+        //    {
+
+        //    }
+        //}
+
+        public static string DaDecimaleABinario(int a)
         {
+            string binario = Convert.ToString(a, 2);
+            return binario;
 
         }
 

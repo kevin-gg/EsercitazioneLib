@@ -70,5 +70,14 @@ namespace EsercitazioneLib_Test
             double valore_effettivo = Gestione.Divisione(a, b);
             Assert.AreEqual(valore_aspettato, valore_effettivo);
         }
+
+        [TestMethod]
+        public void ConversioneTest()
+        {
+            int a = 10;
+            string valore_aspettato = "1010";
+            string valore_effettivo = Gestione.DaDecimaleABinario(a);
+            Assert.AreEqual(valore_aspettato, valore_effettivo);
+        }
     }
     }
