@@ -25,6 +25,35 @@ namespace EsercitazioneLib
         
         }
 
-        
+        public static double Somma(double a, double b)
+        {
+            double somma = a + b;
+            return somma;
+        }
+
+        public static double Sottrazione(double a, double b)
+        {
+            double Sottrazione = a - b;
+            return Sottrazione;
+        }
+
+        public static double Moltiplicazione(double a, double b)
+        {
+            double Moltiplicazione = a * b;
+            return Moltiplicazione;
+        }
+
+        public static double Divisione(double a, double b)
+        {
+            double Divisione = a / b;
+            return Divisione;
+        }
+
+        public static double Potenza(double n)
+        {
+
+        }
+
+
     }
 }
