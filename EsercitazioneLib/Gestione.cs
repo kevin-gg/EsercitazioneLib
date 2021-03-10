@@ -13,7 +13,7 @@ namespace EsercitazioneLib
         }
         public static double Incremento(double n)
         {
-            double p = (n * 10) / 100;
+            double p = (n * 50) / 100;
             double tot = p + n;
             return tot;
         }
